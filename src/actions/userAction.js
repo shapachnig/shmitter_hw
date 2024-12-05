@@ -7,12 +7,10 @@ export const changeAvatar = url => ({
     payload: url
 })
 
-
 export const changeName = name => ({
     type: CHANGE_NAME,
     payload: name
 })
-
 
 export const changeStats = (statsType, sum) => ({
     type: CHANGE_STATS,
